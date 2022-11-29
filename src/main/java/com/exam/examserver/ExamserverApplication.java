@@ -42,7 +42,7 @@ public void run(String... args) throws Exception {
 
 			user.setFirstName("sai");
 			user.setLastName("krishna");
-			user.setUsername("romala");
+			user.setUsername("krishna");
 			user.setPassword(this.bCryptPasswordEncoder.encode(rawPassword = "456"));
 			user.setEmail("krishna@gmail.com");
 			user.setProfile("default.png");
